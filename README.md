@@ -13,26 +13,13 @@ A fully functional Todo List built with React and the useReducer hook for scalab
 - Priority (High → Low)
 - Statistics summary of active and completed todos
 - Clean UI with reusable components
-
-# 🧱 Project Structure
-
-src/
-├── App.js                # Main app component, manages state and renders UI
-├── components/
-│   ├── TodoForm.js       # Form to add a new todo
-│   ├── TodoList.js       # Renders the list of todo items
-│   ├── TodoItem.js       # Renders a single todo item
-│   └── TodoStats.js      # Displays count of completed/active todos
-└── util/
-    ├── todoReducer.js    # Reducer to manage todo state
-    └── initialState.js   # Initial state definition
  
 
 # Clone the repository
-https://github.com/miltonejones/todo-app-demo.git
+```git clone https://github.com/miltonejones/todo-app-demo.git```
 
 # Navigate into the project directory
-cd react-todo-app
+```cd react-todo-app```
 
 # Install dependencies
 ```npm install``` 
@@ -40,5 +27,6 @@ cd react-todo-app
 ```npm start```
 # or
 ```yarn start```
-Visit http://localhost:3000 in your browser.
+
+- Visit http://localhost:3000 in your browser.
 
