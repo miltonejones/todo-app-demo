@@ -1,12 +1,69 @@
-# React + Vite
+📝 React Todo App
+A fully functional Todo List built with React and the useReducer hook for scalable state management. The app includes features such as priority tagging, filtering (by status and priority), and sorting (by date or priority).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+Add new todo items with a title and priority (Low, Medium, High)
 
-Currently, two official plugins are available:
+Mark todos as completed
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Delete individual todos
 
-## Expanding the ESLint configuration
+Filter by:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Completion status: All, Active, Completed
+
+Priority level: All, High, Medium, Low
+
+Sort by:
+
+Creation date (newest first)
+
+Priority (High → Low)
+
+Statistics summary of active and completed todos
+
+Clean UI with reusable components
+
+🧱 Project Structure
+bash
+Copy
+Edit
+src/
+├── App.js                # Main app component, manages state and renders UI
+├── components/
+│   ├── TodoForm.js       # Form to add a new todo
+│   ├── TodoList.js       # Renders the list of todo items
+│   ├── TodoItem.js       # Renders a single todo item
+│   └── TodoStats.js      # Displays count of completed/active todos
+└── util/
+    ├── todoReducer.js    # Reducer to manage todo state
+    └── initialState.js   # Initial state definition
+🛠️ Getting Started
+Prerequisites
+Node.js (version 14+ recommended)
+
+npm or yarn
+
+Installation
+bash
+Copy
+Edit
+# Clone the repository
+https://github.com/miltonejones/todo-app-demo.git
+
+# Navigate into the project directory
+cd react-todo-app
+
+# Install dependencies
+npm install
+# or
+yarn
+Run the App
+bash
+Copy
+Edit
+npm start
+# or
+yarn start
+Visit http://localhost:3000 in your browser.
+
