@@ -1,33 +1,21 @@
-📝 React Todo App
+## 📝 React Todo App
 A fully functional Todo List built with React and the useReducer hook for scalable state management. The app includes features such as priority tagging, filtering (by status and priority), and sorting (by date or priority).
 
-🚀 Features
-Add new todo items with a title and priority (Low, Medium, High)
+# 🚀 Features
+- Add new todo items with a title and priority (Low, Medium, High)
+- Mark todos as completed
+- Delete individual todos
+- Filter by:
+- Completion status: All, Active, Completed
+- Priority level: All, High, Medium, Low
+- Sort by:
+- Creation date (newest first)
+- Priority (High → Low)
+- Statistics summary of active and completed todos
+- Clean UI with reusable components
 
-Mark todos as completed
+# 🧱 Project Structure
 
-Delete individual todos
-
-Filter by:
-
-Completion status: All, Active, Completed
-
-Priority level: All, High, Medium, Low
-
-Sort by:
-
-Creation date (newest first)
-
-Priority (High → Low)
-
-Statistics summary of active and completed todos
-
-Clean UI with reusable components
-
-🧱 Project Structure
-bash
-Copy
-Edit
 src/
 ├── App.js                # Main app component, manages state and renders UI
 ├── components/
@@ -38,16 +26,8 @@ src/
 └── util/
     ├── todoReducer.js    # Reducer to manage todo state
     └── initialState.js   # Initial state definition
-🛠️ Getting Started
-Prerequisites
-Node.js (version 14+ recommended)
+ 
 
-npm or yarn
-
-Installation
-bash
-Copy
-Edit
 # Clone the repository
 https://github.com/miltonejones/todo-app-demo.git
 
@@ -55,15 +35,10 @@ https://github.com/miltonejones/todo-app-demo.git
 cd react-todo-app
 
 # Install dependencies
-npm install
+```npm install``` 
+# Run the App 
+```npm start```
 # or
-yarn
-Run the App
-bash
-Copy
-Edit
-npm start
-# or
-yarn start
+```yarn start```
 Visit http://localhost:3000 in your browser.
 
