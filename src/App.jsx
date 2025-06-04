@@ -26,8 +26,7 @@ function App() {
   useEffect(() => {
     localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(state));
   }, [state]);
-
-  // const [state, dispatch] = useReducer(todoReducer, initialState);
+ 
 
   // return the list with any filters/sorts applied
   const getFilteredTodos = () => {
